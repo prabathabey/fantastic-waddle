@@ -4,7 +4,7 @@ import random
 
 app = Flask(__name__)
 
-# list of cat images
+# location of the gif displayed.
 image_url = "/static/images/hello-world.gif"
 
 @app.route("/")
